@@ -32,9 +32,7 @@ A modern, full-featured e-commerce application built with Next.js, featuring a p
 ### Shopping Experience
 | Product Grid | Cart Sidebar |
 |:---:|:---:|
-| ![Product Grid](
-    public/readme-assets/Screenshot%202025-11-20%20152746.png
-    ) | ![Cart Sidebar](public/readme-assets/Screenshot%202025-11-20%20152715.png) |
+| ![Product Grid](public/readme-assets/Screenshot%202025-11-20%20152746.png) | ![Cart Sidebar](public/readme-assets/Screenshot%202025-11-20%20152715.png) |
 
 ### Checkout Process
 ![Checkout Page](public/readme-assets/Screenshot%202025-11-20%20152734.png)
