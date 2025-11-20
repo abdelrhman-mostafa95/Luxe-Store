@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Wireless Headphones",
+    "price": 299.99,
+    "description": "Experience crystal clear sound with our premium noise-cancelling headphones.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+    "category": "Electronics"
+  },
+  {
+    "id": "2",
+    "name": "Minimalist Watch",
+    "price": 149.5,
+    "description": "A sleek and modern timepiece for the urban professional.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "category": "Accessories"
+  },
+  {
+    "id": "3",
+    "name": "Ergonomic Office Chair",
+    "price": 450,
+    "description": "Work in comfort with our fully adjustable ergonomic chair.",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&q=80",
+    "category": "Furniture"
+  }
+]

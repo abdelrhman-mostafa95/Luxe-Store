@@ -1,0 +1,154 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    backdrop-filter: blur(4px);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    background: var(--card-bg);
+    border-left: 1px solid var(--card-border);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--card-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeBtn {
+    background: transparent;
+    border: none;
+    color: var(--foreground);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.closeBtn:hover {
+    background: var(--card-border);
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.empty {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.itemInfo h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.price {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--background);
+    padding: 0.25rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--card-border);
+}
+
+.quantity button {
+    background: transparent;
+    border: none;
+    color: var(--foreground);
+    padding: 0.25rem;
+    display: flex;
+}
+
+.quantity button:hover {
+    color: var(--accent);
+}
+
+.quantity span {
+    font-size: 0.9rem;
+    min-width: 1.5rem;
+    text-align: center;
+}
+
+.removeBtn {
+    background: transparent;
+    border: none;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.removeBtn:hover {
+    color: var(--danger);
+}
+
+.footer {
+    padding: 1.5rem;
+    border-top: 1px solid var(--card-border);
+    background: var(--card-bg);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
