@@ -2,7 +2,7 @@
 
 A modern, full-featured e-commerce application built with Next.js, featuring a premium dark UI, comprehensive product management, and a seamless shopping experience.
 
-![LuxeStore Hero](public/readme-assets/landing-hero.png)
+![LuxeStore Hero](public/readme-assets/Screenshot%202025-11-20%20152702.png)
 
 ## 🚀 Features
 
@@ -32,13 +32,13 @@ A modern, full-featured e-commerce application built with Next.js, featuring a p
 ### Shopping Experience
 | Product Grid | Cart Sidebar |
 |:---:|:---:|
-| ![Product Grid](public/readme-assets/product-grid.png) | ![Cart Sidebar](public/readme-assets/cart-sidebar.png) |
+| ![Product Grid](public/readme-assets/Screenshot%202025-11-20%20152734.png) | ![Cart Sidebar](public/readme-assets/Screenshot%202025-11-20%20152715.png) |
 
 ### Checkout Process
-![Checkout Page](public/readme-assets/checkout-page.png)
+![Checkout Page](public/readme-assets/Screenshot%202025-11-20%20152746.png)
 
 ### Admin Management
-![Admin Panel](public/readme-assets/admin-panel.png)
+![Admin Panel](public/readme-assets/Screenshot%202025-11-20%20152759.png)
 
 ## 🏁 Getting Started
 
